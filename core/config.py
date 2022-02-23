@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     SHOW_DDL = False
 
-    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = ["http://localhost:3000"]
+    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = ["http://localhost:3000", "https://react-frontend-prezentation.herokuapp.com"]
 
 
 settings = Settings()
